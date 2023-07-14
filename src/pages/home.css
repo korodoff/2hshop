@@ -1,0 +1,50 @@
+.carousel-inner{
+    width: 100%;
+    height: 400px;
+    
+}
+.carousel-item{
+    width: 100%;
+}
+.carousel-item img{
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 25rem; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+   
+}
+.homeImage{
+    /* background-image: url("/w3images/photographer.jpg"); */
+    background-color: #cccccc;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.homeImagecontent1{
+    background-image: url("https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2022-08/colorful-shirt-hanging-rail-store.jpg");
+
+}
+.homeImagecontent2{
+    background-image: url("https://imgv3.fotor.com/images/side/remove-several-product-image-backgrounds-in-Fotor-online-batch-image-background-remover-for-ecommerce.png");
+}
+.homeImagecontent3{
+    background-image: url("https://cutout.s3.amazonaws.com/cutout-nuxt/editing/exam/2c.jpeg");
+}
+
+.categories{
+    width: 100%;
+    background-color: white;
+    height: 600px;
+}
+.categoriesTag{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: grey;
+    gap: 10px;
+    position: relative;
+    left: 10rem;
+    width: 90%;
+}
