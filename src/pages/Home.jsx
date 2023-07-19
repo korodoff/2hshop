@@ -55,10 +55,12 @@ const Home = () => {
         <div className="categories">
                 <h1 className='mt-5 mb-5 text-secondary-emphasis' ><b>CATEGORIES</b></h1>
 
-                <div className="categoriesTag">
+                <div className="catogriesContainer">
+                  <div className='categoriesTag'>
                   <div className="menTag">men</div>
                   <div className="womenTag">women</div>
                   <div className="homelivingTag">home</div>
+                  </div>
                 </div>
         </div>
 
