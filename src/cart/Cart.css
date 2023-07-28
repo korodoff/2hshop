@@ -1,0 +1,15 @@
+.inputButton{
+    background-color: white;
+    padding: 3px;
+    
+}
+.pincode{
+    border:  3px solid grey;
+    width: 50%;
+    background-color: red;
+    display: flex;
+    margin-left: 20%;
+    border-radius: 10px;
+
+
+}
