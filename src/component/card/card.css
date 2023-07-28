@@ -1,0 +1,10 @@
+.cardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+
+}
+.card{
+    margin: 0.5em;
+}

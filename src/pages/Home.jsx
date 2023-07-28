@@ -57,9 +57,9 @@ const Home = () => {
 
                 <div className="catogriesContainer">
                   <div className='categoriesTag'>
-                  <div className="menTag">men</div>
-                  <div className="womenTag">women</div>
-                  <div className="homelivingTag">home</div>
+                  <div className="menTag flex">MEN</div>
+                  <div className="womenTag flex">WOMEN</div>
+                  <div className="homelivingTag flex">HOME</div>
                   </div>
                 </div>
         </div>
