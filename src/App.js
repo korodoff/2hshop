@@ -5,7 +5,8 @@ import Home from './pages/Home';
 import Men from './pages/Men';
 import Women from './pages/Women';
 import HomeLiving from './pages/HomeLiving';
-import Cart from './cart/Cart';
+import Cart from './component/cart/Cart';
+import PlaceOrder from './component/placeorder/PlaceOrder';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path='/women' element={<Women/>}/>
             <Route path='/homeliving' element={<HomeLiving/>}/>
             <Route path='/Cart' element={<Cart/>}/>
+            <Route path='/Cart/placeorder' element={<PlaceOrder/>}/>
           </Routes>
        </BrowserRouter>
         

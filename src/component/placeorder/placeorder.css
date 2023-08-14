@@ -1,0 +1,22 @@
+.pinContainer{
+    display: flex;
+    
+    
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    border: 3px solid rgb(184, 178, 178);
+}
+.pin{
+    display: flex;
+    border:  3px solid red;
+}
+
+.Itemorder{
+display: flex;
+justify-content: space-around;
+}
+
+.itemImage{
+   height: 10rem;
+}

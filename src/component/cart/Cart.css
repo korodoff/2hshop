@@ -1,15 +1,20 @@
 .inputButton{
     background-color: white;
     padding: 3px;
+    border: none;
     
 }
 .pincode{
     border:  3px solid grey;
     width: 50%;
-    background-color: red;
     display: flex;
-    margin-left: 20%;
-    border-radius: 10px;
+
+    border-radius: 2px;
 
 
+}
+.deliveryOption{
+    
+   text-align: start;
+    
 }

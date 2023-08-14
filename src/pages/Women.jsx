@@ -4,16 +4,16 @@ import Footer from '../component/footer/footer'
 import Card from '../component/card/Card'
 
 const Women = () => {
-  return (
-    <>
-    <Navbar/>
-    <section>
-        <Card/>
-    </section>
-    <Footer/>    
-    
-    </>
-  )
+    return (
+        <>
+            <Navbar />
+
+            <Card />
+
+            <Footer />
+
+        </>
+    )
 }
 
 export default Women

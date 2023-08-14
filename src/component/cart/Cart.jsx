@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../component/navbar/navbar'
-import Footer from '../component/footer/footer'
+import Navbar from '../navbar/navbar'
+import Footer from '../footer/footer'
 import './Cart.css'
 const Cart = () => {
 
@@ -48,9 +48,9 @@ const Cart = () => {
                                 <button class="btn  btn btn-warning" type="button">ADD TO CART</button>
                                 <button class="btn btn-primary" type="button">BUY IT NOW</button>
                             </div>
-                            <h4>Delivery Option <i class="fa-solid fa-truck"></i> </h4>
+                            <h4 className='deliveryOption'>Delivery Option <i class="fa-solid fa-truck small"></i> </h4>
                             <form className="pincode"> 
-                            <input  type="number" id="inputPassword6" class="form-control  inputButton" aria-describedby="passwordHelpInline"/>
+                            <input  type="number" id="pincode" class="form-control  inputButton" pattern={'[0-9] {}'}  placeholder='Enter Pincode'/>
                             <input type='submit' className='inputButton' value="check"/>
                             </form>
                         
